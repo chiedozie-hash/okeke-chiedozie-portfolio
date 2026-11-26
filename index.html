@@ -1,85 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Okeke Chiedozie Anthony | Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Okeke Chiedozie Anthony | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header id="home">
-        <h2>Okeke Chiedozie Anthony</h2>
-        <nav>
-            <a href="#about">About Me</a>
-            <a href="#projects">Project Details</a>
-            <a href="#skills">Skills</a>
-            <a href="#recommendations">Recommendations</a>
-        </nav>
-    </header>
+  <!-- Required Home button with class iconbutton -->
+  <a href="#home" class="iconbutton">⌂</a>
 
-    <main>
-        <section class="profile">
-            <div class="profile-image">OCA</div>
-            <div>
-                <h1>Okeke Chiedozie Anthony</h1>
-                <h3>Software Engineering Student</h3>
-                <p>I'm a passionate learner developing my skills in software engineering and web development. I enjoy creating websites, exploring technology and building digital solutions.</p>
-            </div>
-        </section>
+  <header id="home">
+    <h2 class="profile_name">Okeke Chiedozie Anthony</h2>
+    <nav>
+      <a href="#about">About Me</a>
+      <a href="#projects">Project Details</a>
+      <a href="#skills">Skills</a>
+      <a href="#recommendations">Recommendations</a>
+    </nav>
+  </header>
 
-        <section id="about">
-            <h2>About Me</h2>
-            <p>My name is Okeke Chiedozie Anthony. I am developing my knowledge of software engineering, programming and website development. Through practical projects, I am learning how to transform ideas into useful and engaging digital experiences.</p>
-        </section>
+  <main>
+    <!-- Profile Section -->
+    <section class="profile">
+      <div class="profile-image">OCA</div>
+      <div>
+        <h1 class="profile_name">Okeke Chiedozie Anthony</h1>
+        <h3>Software Engineering Student</h3>
+        <p>I'm a passionate learner developing my skills in software engineering and web development. I enjoy creating websites, exploring technology and building digital solutions.</p>
+      </div>
+    </section>
 
-        <section id="skills">
-            <h2>My Skills</h2>
-            <div class="skills-container">
-                <div class="skill"><i class="devicon-html5-plain colored"></i><p>HTML5</p></div>
-                <div class="skill"><i class="devicon-css3-plain colored"></i><p>CSS3</p></div>
-                <div class="skill"><i class="devicon-javascript-plain colored"></i><p>JavaScript</p></div>
-                <div class="skill"><i class="devicon-github-original"></i><p>GitHub</p></div>
-                <div class="skill"><i class="devicon-git-plain colored"></i><p>Git</p></div>
-            </div>
-        </section>
+    <!-- About Me - must contain name + img + summary -->
+    <section id="about">
+      <h2>About Me</h2>
+      <img src="20260423_163636.jpg" alt="Profile photo of Okeke Chiedozie Anthony" width="150" style="border-radius: 50%; margin-bottom: 15px;">
+      <p>My name is Okeke Chiedozie Anthony. I am developing my knowledge of software engineering, programming and website development. Through practical projects, I am learning how to transform ideas into useful and engaging digital experiences.</p>
+    </section>
 
-        <section id="projects">
-            <h2>Project Details</h2>
-            <div class="project">
-                <h3>Valentine Property & Garden Care</h3>
-                <p>A business website developed to present property maintenance, cleaning and gardening services.</p>
-            </div>
-            <div class="project">
-                <h3>Personal Portfolio Website</h3>
-                <p>A personal website showcasing my background, technical skills and development projects.</p>
-            </div>
-            <div class="project">
-                <h3>Business Website Development</h3>
-                <p>A practical web development project focused on presenting business information and services online.</p>
-            </div>
-        </section>
+    <!-- Skills - using real <img> tags -->
+    <section id="skills">
+      <h2>My Skills</h2>
+      <div class="skills-container">
+        <div class="skill">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" width="45">
+          <p>HTML5</p>
+        </div>
+        <div class="skill">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" width="45">
+          <p>CSS3</p>
+        </div>
+        <div class="skill">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" width="45">
+          <p>JavaScript</p>
+        </div>
+        <div class="skill">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" width="45">
+          <p>GitHub</p>
+        </div>
+        <div class="skill">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" width="45">
+          <p>Git</p>
+        </div>
+      </div>
+    </section>
 
-        <section id="recommendations">
-            <h2>Recommendations</h2>
-            <div id="recommendation-list">
-                <div class="recommendation">"Chiedozie demonstrates enthusiasm and dedication to learning new technology."</div>
-                <div class="recommendation">"He shows creativity and a willingness to improve his web development skills."</div>
-                <div class="recommendation">"His commitment to practical learning is impressive."</div>
-            </div>
+    <!-- Projects - must use class project-card -->
+    <section id="projects">
+      <h2>Project Details</h2>
+      <div class="project-card">
+        <h3>Valentine Property & Garden Care</h3>
+        <p>A business website developed to present property maintenance, cleaning and gardening services.</p>
+      </div>
+      <div class="project-card">
+        <h3>Personal Portfolio Website</h3>
+        <p>A personal website showcasing my background, technical skills and development projects.</p>
+      </div>
+      <div class="project-card">
+        <h3>Business Website Development</h3>
+        <p>A practical web development project focused on presenting business information and services online.</p>
+      </div>
+    </section>
 
-            <h3>Add a Recommendation</h3>
-            <form id="recommendation-form">
-                <input type="text" id="recommendation-name" placeholder="Your name (optional)">
-                <textarea id="recommendation-text" placeholder="Write your recommendation..." required></textarea>
-                <button type="submit">Submit Recommendation</button>
-            </form>
-        </section>
+    <!-- Recommendations -->
+    <section id="recommendations">
+      <h2>Recommendations</h2>
+      <div id="recommendation-list">
+        <div class="recommendation">"Chiedozie demonstrates enthusiasm and dedication to learning new technology."</div>
+        <div class="recommendation">"He shows creativity and a willingness to improve his web development skills."</div>
+        <div class="recommendation">"His commitment to practical learning is impressive."</div>
+      </div>
 
-        <a href="#home" class="home-icon" title="Back to Home">⌂</a>
-    </main>
+      <h3>Add a Recommendation</h3>
+      <form id="recommendation-form">
+        <input type="text" id="recommendation-name" placeholder="Your name (optional)">
+        <textarea id="recommendation-text" placeholder="Write your recommendation..." required></textarea>
+        <button type="submit">Submit Recommendation</button>
+      </form>
+    </section>
+  </main>
 
-    <script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
